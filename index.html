@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+    <link rel="stylesheet" href="Function.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>CHECK!😀</h1>
+        <div class="fizzbuzz">
+            <p class="headings">FizzBuzz</p>
+        <input type="number" id="value" onkeyup="fizzBuzz()" placeholder="Enter a Number...">
+        <p id="output"></p> 
+        </div>
+    
+        <div class="even_odd">
+            <p class="headings">Collecting Even and Odd Numbers from 0-100.</p>
+            <div class="btn_container">
+            <button class="evenodd_btn" onclick="evenNumber()">View Even Numbers</button>
+            <button class="evenodd_btn" onclick="oddNumber()">View Odd Numbers</button>
+            </div>
+            <div class="display_container">
+                <p id="display"></p>
+            </div>
+        </div>
+       
+    
+       <div class="palindrom">
+        <p class="headings">Palindrome Words</p>
+        <input type="text" id="palindromeWords" placeholder="Type a Word">
+        <button onclick="palindromeWords()" class="go_btn">Go</button>
+        <p id="testWord"></p>
+       </div>
+    
+    </div>
+    <script src="Functions.js"></script>
+</body>
+
+</html>
